@@ -49,13 +49,5 @@ public class ProductController {
         return new ResponseEntity<>(productService.getProductByName(name), HttpStatus.OK);
     }
 
-    @PostMapping("/game/new")
-    public ResponseEntity<ProductDTO> createProduct(@RequestBody @Valid NewProductDTO newProductDTO){
-        return new ResponseEntity<>(productService.createProduct(newProductDTO), HttpStatus.OK);
-    }
 
-    @PostMapping("/game/update")
-    public ResponseEntity<ProductDTO> updateProduct(@RequestBody @Valid ProductRequestDTO productDTO){
-        return new ResponseEntity<>(productService.updateProduct(productDTO), HttpStatus.OK);
-    }
 }

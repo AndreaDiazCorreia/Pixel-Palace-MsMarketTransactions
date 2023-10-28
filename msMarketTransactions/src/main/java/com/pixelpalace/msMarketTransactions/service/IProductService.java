@@ -18,7 +18,5 @@ public interface IProductService {
 
     ProductListDTO getProductByName(String name);
 
-    ProductDTO createProduct(NewProductDTO newProductDTO);
 
-    ProductDTO updateProduct(ProductRequestDTO productDTO);
 }

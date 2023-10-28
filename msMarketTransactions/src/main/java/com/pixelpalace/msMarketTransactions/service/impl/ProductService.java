@@ -77,47 +77,7 @@ public class ProductService implements IProductService {
         return createProductList(products);
     }
 
-    @Override
-    public ProductDTO createProduct(NewProductDTO newProductDTO) {
-        ProductDTO productDTO;
-        validations(newProductDTO.getCategoriesId(), newProductDTO.getPlatformsId());
-        try {
-            Product product = productRepository.save(productMapperToModel(newProductDTO));
-            productDTO = productMapperToDTO(product);
-            newProductDTO.getCategoriesId().stream().map(categoriaId -> categoryService.saveProduct(categoriaId, product));
-            newProductDTO.getPlatformsId().stream().map(platformId -> platformService.saveProduct(platformId, product));
-        } catch (Exception e) {
-            throw new RuntimeException("No se pudo guardar el juego. Por favor, intente más tarde");
-        }
-        return productDTO;
-    }
 
-    @Override
-    public ProductDTO updateProduct(ProductRequestDTO productDTO) {
-       Product result = productRepository.findById(productDTO.getId()).orElse(null);
-       if (result != null) {
-           try {
-               validations(productDTO.getCategoriesId(), productDTO.getPlatformsId());
-               result.setName(productDTO.getName());
-               result.setDescription(productDTO.getDescription());
-               result.setCategories(productDTO.getCategoriesId().stream()
-                       .map(categoryId -> categoryService.findById(categoryId).orElse(null))
-                       .filter(Objects::nonNull)
-                       .toList());
-               result.setPlatforms(productDTO.getPlatformsId().stream()
-                       .map(platformId -> platformService.findById(platformId).orElse(null))
-                       .filter(Objects::nonNull)
-                       .toList());
-               result.setPrice(productDTO.getPrice());
-               productRepository.save(result);
-           } catch (Exception e) {
-               throw new RuntimeException("No se pudo guardar el juego. Por favor, intente más tarde" + e);
-           }
-       } else {
-           throw new ProductNotFoundException("No se encontró el producto de Id " + productDTO.getId());
-       }
-        return productMapperToDTO(result);
-    }
 
     private ProductListDTO createProductList(final List<Product> products) {
         if (products.isEmpty()) {
