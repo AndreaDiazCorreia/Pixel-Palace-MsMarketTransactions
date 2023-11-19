@@ -13,4 +13,6 @@ VALUES (1, 1);
 INSERT INTO Product_Platforms (product_id, platform_id)
 VALUES (1, 1);
 
+INSERT INTO transactions_product (product_id, transacction_id)
+VALUES (1, 1);
 

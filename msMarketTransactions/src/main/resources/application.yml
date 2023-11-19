@@ -25,7 +25,7 @@
 #        format_sql: true
 
 server:
-  port: 8081
+  port: 8082
 spring:
   application:
     name: userManagement-service
@@ -39,7 +39,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pixel_palace
     username: root
-    password: matias2018*
+    password: Alexis165.
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:

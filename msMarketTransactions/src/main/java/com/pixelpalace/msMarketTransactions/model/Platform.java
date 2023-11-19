@@ -31,6 +31,10 @@ public class Platform {
             inverseJoinColumns = @JoinColumn(name = "product_id" ))
     private List<Product> products;
 
-    @OneToMany(mappedBy = "platform", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "transactions_product",
+            joinColumns = @JoinColumn(name = "platform_id"),
+            inverseJoinColumns = @JoinColumn(name = "transacction_id"))
     private List<Transaction> transactions;
 }

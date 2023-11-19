@@ -31,13 +31,11 @@ public class Transaction {
     //@JoinColumn(name = "user_id", nullable = false)
     //private User user;
 
-    @ManyToOne
-    @JoinColumn(name = "product_id", nullable = false)
-    private Product product;
+    @ManyToMany(mappedBy = "transactions", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+    private List<Product> products;
 
-    @ManyToOne
-    @JoinColumn(name = "platform_id", nullable = false)
-    private Platform platform;
+    @ManyToMany(mappedBy = "transactions", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+    private List<Platform> platform;
 
     @Column(name = "date")
     private Date date;
