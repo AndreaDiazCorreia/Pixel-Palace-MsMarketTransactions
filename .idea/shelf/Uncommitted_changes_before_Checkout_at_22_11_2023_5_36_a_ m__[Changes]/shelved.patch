@@ -1,0 +1,216 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"65010df5-e0e9-42db-8b3c-5477baa60764\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/NewProductDTO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/NewProductDTO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/ProductRequestDTO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/ProductRequestDTO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Category.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Category.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/msMarketTransactions/src/main/resources/application-local.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/msMarketTransactions/src/main/resources/application-test.yml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"JpbToolWindowState\">\r\n    <option name=\"myId2FirstActivated\">\r\n      <map>\r\n        <entry key=\"com.haulmont.jpb.jpaInspector\" value=\"true\" />\r\n        <entry key=\"com.haulmont.jpb.jpaPalette\" value=\"true\" />\r\n        <entry key=\"com.haulmont.jpb.jpaStructure\" value=\"true\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"myId2Visible\">\r\n      <map>\r\n        <entry key=\"com.haulmont.jpb.jpaInspector\" value=\"false\" />\r\n        <entry key=\"com.haulmont.jpb.jpaPalette\" value=\"false\" />\r\n        <entry key=\"com.haulmont.jpb.jpaStructure\" value=\"false\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2X2cNpsBkFelwPFEahyjse8G2yO\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\" value=\"JUnit5\" />\r\n    <property name=\"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\" value=\"\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Orne\\Certified Tech Developer\\Proyecto Integrador 2\\Pixel-Palace-MsMarketTransactions\\msMarketTransactions\\src\\main\\resources\\carga_sql\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"com.pixelpalace.msMarketTransactions\" />\r\n      <recent name=\"com.pixelpalace.msMarketTransactions.repository\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.ProductServiceTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.MsMarketTransactionsApplication\" />\r\n      <module name=\"msMarketTransactions\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductServiceTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"msMarketTransactions\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.pixelpalace.msMarketTransactions.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl.ProductServiceTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductServiceTest.updateProduct\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"msMarketTransactions\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.pixelpalace.msMarketTransactions.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl.ProductServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"updateProduct\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductServiceTest.when_create_product_ok\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"msMarketTransactions\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.pixelpalace.msMarketTransactions.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl.ProductServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"when_create_product_ok\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductServiceTest.when_get_product_by_name_ok\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"msMarketTransactions\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.pixelpalace.msMarketTransactions.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl.ProductServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"when_get_product_by_name_ok\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductServiceTest.when_update_product_ok\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"msMarketTransactions\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.pixelpalace.msMarketTransactions.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.pixelpalace.msMarketTransactions.service.impl.ProductServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"when_update_product_ok\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.ProductServiceTest\" />\r\n        <item itemvalue=\"JUnit.ProductServiceTest.when_update_product_ok\" />\r\n        <item itemvalue=\"JUnit.ProductServiceTest.updateProduct\" />\r\n        <item itemvalue=\"JUnit.ProductServiceTest.when_create_product_ok\" />\r\n        <item itemvalue=\"JUnit.ProductServiceTest.when_get_product_by_name_ok\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"65010df5-e0e9-42db-8b3c-5477baa60764\" name=\"Changes\" comment=\"\" />\r\n      <created>1697830577517</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1697830577517</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/ProductService.java</url>\r\n          <line>42</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/ProductService.java</url>\r\n          <line>44</line>\r\n          <option name=\"timeStamp\" value=\"11\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java</url>\r\n          <line>35</line>\r\n          <option name=\"timeStamp\" value=\"12\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java</url>\r\n          <line>38</line>\r\n          <option name=\"timeStamp\" value=\"13\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/test/java/com/pixelpalace/msMarketTransactions/service/impl/ProductServiceTest.java</url>\r\n          <line>167</line>\r\n          <option name=\"timeStamp\" value=\"39\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/ProductService.java</url>\r\n          <line>88</line>\r\n          <properties>\r\n            <option name=\"lambda-ordinal\" value=\"-1\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"40\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/ProductService.java</url>\r\n          <line>87</line>\r\n          <properties>\r\n            <option name=\"lambda-ordinal\" value=\"-1\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"41\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,13 +5,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="65010df5-e0e9-42db-8b3c-5477baa60764" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/ProductController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/NewProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/NewProductDTO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/ProductRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/dto/request/ProductRequestDTO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Category.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/application-test.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,19 +57,34 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 2
++}</component>
+   <component name="ProjectId" id="2X2cNpsBkFelwPFEahyjse8G2yO" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "develop",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
++    "vue.rearranger.settings.migration": "true"
++  },
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "mysql"
++    ]
++  }
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Orne\Certified Tech Developer\Proyecto Integrador 2\Pixel-Palace-MsMarketTransactions\msMarketTransactions\src\main\resources\carga_sql" />
+@@ -191,9 +205,20 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1697830577517</updated>
++      <workItem from="1699979635979" duration="10138000" />
++      <workItem from="1700007558289" duration="30000" />
++      <workItem from="1700158631806" duration="28000" />
++      <workItem from="1700264339372" duration="303000" />
++      <workItem from="1700269203188" duration="593000" />
++      <workItem from="1700527518956" duration="2072000" />
++      <workItem from="1700532067448" duration="1370000" />
++      <workItem from="1700648315417" duration="826000" />
+     </task>
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -204,7 +229,6 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/msMarketTransactions/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_X\" default=\"true\" project-jdk-name=\"18\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"jpab\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,4 +1,3 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="MavenProjectsManager">
+@@ -8,7 +7,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="18" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+   <component name="ProjectType">
+Index: msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.pixelpalace.msMarketTransactions.config;\r\n\r\nimport com.pixelpalace.msMarketTransactions.dto.ErrorDTO;\r\nimport com.pixelpalace.msMarketTransactions.dto.MessageDTO;\r\nimport com.pixelpalace.msMarketTransactions.exception.CategoryNotFoundException;\r\nimport com.pixelpalace.msMarketTransactions.exception.EmptyProductsException;\r\nimport com.pixelpalace.msMarketTransactions.exception.PlatformNotFoundException;\r\nimport com.pixelpalace.msMarketTransactions.exception.ProductNotFoundException;\r\nimport jakarta.validation.ConstraintViolation;\r\nimport jakarta.validation.ConstraintViolationException;\r\nimport org.springframework.context.support.DefaultMessageSourceResolvable;\r\nimport org.springframework.http.ResponseEntity;\r\nimport org.springframework.http.converter.HttpMessageNotReadableException;\r\nimport org.springframework.web.bind.MethodArgumentNotValidException;\r\nimport org.springframework.web.bind.annotation.ControllerAdvice;\r\nimport org.springframework.web.bind.annotation.ExceptionHandler;\r\nimport java.util.stream.Collectors;\r\n\r\n@ControllerAdvice\r\npublic class ControllerExceptionHandler {\r\n    @ExceptionHandler(ProductNotFoundException.class)\r\n    public ResponseEntity<?> productNotFoundException(Exception e) {\r\n        return ResponseEntity.badRequest().body(new MessageDTO(e.getMessage()));\r\n    }\r\n\r\n    @ExceptionHandler(PlatformNotFoundException.class)\r\n    public ResponseEntity<?> platformNotFoundException(Exception e) {\r\n        return ResponseEntity.badRequest().body(new MessageDTO(e.getMessage()));\r\n    }\r\n\r\n    @ExceptionHandler(CategoryNotFoundException.class)\r\n    public ResponseEntity<?> categoryNotFoundException(Exception e) {\r\n        return ResponseEntity.badRequest().body(new MessageDTO(e.getMessage()));\r\n    }\r\n\r\n    @ExceptionHandler(EmptyProductsException.class)\r\n    public ResponseEntity<?> emptyProductsException(Exception e) {\r\n        return ResponseEntity.badRequest().body(new MessageDTO(e.getMessage()));\r\n    }\r\n\r\n    @ExceptionHandler(MethodArgumentNotValidException.class)\r\n    public ResponseEntity<?> capturandoValidaciones(MethodArgumentNotValidException e) {\r\n        return ResponseEntity.badRequest().body(\r\n                new ErrorDTO(\r\n                        \"Se encontraron los siguientes errores en las validaciones: \",\r\n                        e.getAllErrors().stream().map(DefaultMessageSourceResolvable::getDefaultMessage).toList()\r\n                )\r\n        );\r\n    }\r\n\r\n\r\n    @ExceptionHandler(HttpMessageNotReadableException.class)\r\n    public ResponseEntity<?> capturandoValidaciones(HttpMessageNotReadableException e) {\r\n        MessageDTO errorDto = new MessageDTO(e.getMessage());\r\n        return ResponseEntity.badRequest().body(errorDto);\r\n    }\r\n\r\n    @ExceptionHandler(ConstraintViolationException.class)\r\n    public ResponseEntity<ErrorDTO> validationException(ConstraintViolationException e) {\r\n        return ResponseEntity.badRequest().body(\r\n                new ErrorDTO(\r\n                        \"Se encontraron los siguientes errores en las validaciones: \",\r\n                        e.getConstraintViolations().stream().map(ConstraintViolation::getMessage).collect(Collectors.toList())\r\n                )\r\n        );\r\n    }\r\n}\r\n\r\n
+===================================================================
+diff --git a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java
+--- a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java	
++++ b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/config/ControllerExceptionHandler.java	
+@@ -66,3 +66,4 @@
+     }
+ }
+ 
++
+Index: msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.pixelpalace.msMarketTransactions.model;\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.AllArgsConstructor;\r\nimport lombok.Getter;\r\nimport lombok.NoArgsConstructor;\r\nimport lombok.Setter;\r\n\r\nimport java.util.List;\r\n\r\n@Getter\r\n@Setter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n@Entity\r\n@Table(name = \"Transactions\")\r\npublic class Transaction {\r\n\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private Long id;\r\n\r\n    @Column(name = \"status\")\r\n    private String status;\r\n\r\n    @Column(name = \"code\")\r\n    private String code;\r\n\r\n    //@ManyToOne\r\n    //@JoinColumn(name = \"user_id\", nullable = false)\r\n    //private User user;\r\n\r\n    @ManyToOne\r\n    @JoinColumn(name = \"product_id\", nullable = false)\r\n    private Product product;\r\n\r\n    @ManyToOne\r\n    @JoinColumn(name = \"platform_id\", nullable = false)\r\n    private Platform platform;\r\n}\r\n
+===================================================================
+diff --git a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java
+--- a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java	
++++ b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java	
+@@ -37,4 +37,7 @@
+     @ManyToOne
+     @JoinColumn(name = "platform_id", nullable = false)
+     private Platform platform;
++
++    public void setRandomNumber(Long randomNumber) {
++    }
+ }
+Index: msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.pixelpalace.msMarketTransactions.service;\r\n\r\nimport org.springframework.stereotype.Service;\r\n\r\n@Service\r\npublic interface ITransactionService {\r\n}\r\n
+===================================================================
+diff --git a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java
+--- a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java	
++++ b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java	
+@@ -1,7 +1,11 @@
+ package com.pixelpalace.msMarketTransactions.service;
+ 
++import com.pixelpalace.msMarketTransactions.model.Transaction;
+ import org.springframework.stereotype.Service;
+ 
+ @Service
+ public interface ITransactionService {
++    Transaction findByRandomNumber(Long randomNumber);
++
++    Transaction createTransaction(Transaction transaction);
+ }
+Index: msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.pixelpalace.msMarketTransactions.controller;\r\n\r\nimport com.pixelpalace.msMarketTransactions.service.ITransactionService;\r\nimport org.springframework.web.bind.annotation.RequestMapping;\r\nimport org.springframework.web.bind.annotation.RestController;\r\n\r\n@RestController\r\n@RequestMapping(\"/api/v1/transaction\")\r\npublic class TransactionController {\r\n\r\n    private final ITransactionService transactionService;\r\n\r\n    public TransactionController(ITransactionService transactionService) {\r\n        this.transactionService = transactionService;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java
+--- a/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java	
++++ b/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java	
+@@ -1,6 +1,10 @@
+ package com.pixelpalace.msMarketTransactions.controller;
+ 
++import com.pixelpalace.msMarketTransactions.model.Transaction;
+ import com.pixelpalace.msMarketTransactions.service.ITransactionService;
++import org.springframework.http.ResponseEntity;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
+ import org.springframework.web.bind.annotation.RequestMapping;
+ import org.springframework.web.bind.annotation.RestController;
+ 
+@@ -13,4 +17,22 @@
+     public TransactionController(ITransactionService transactionService) {
+         this.transactionService = transactionService;
+     }
++
++    @PostMapping
++    public ResponseEntity<Transaction> createTransaction(@RequestBody Transaction transaction) {
++
++        Long randomNumber = (long) (Math.random() * 100000);
++
++        Transaction existingTransaction = transactionService.findByRandomNumber(randomNumber);
++
++        if (existingTransaction == null) {
++            transaction.setRandomNumber(randomNumber);
++        } else {
++
++            randomNumber = (long) (Math.random() * 100000);
++            transaction.setRandomNumber(randomNumber);
++        }
++        
++        return ResponseEntity.ok(transactionService.createTransaction(transaction));
++    }
+ }
