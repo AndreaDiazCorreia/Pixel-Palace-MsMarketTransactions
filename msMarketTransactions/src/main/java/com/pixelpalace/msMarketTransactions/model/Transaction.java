@@ -41,4 +41,8 @@ public class Transaction {
 
     @Column(name = "date")
     private Date date;
+
+    public void setRandomNumber(Long randomNumber) {
+    }
+
 }
