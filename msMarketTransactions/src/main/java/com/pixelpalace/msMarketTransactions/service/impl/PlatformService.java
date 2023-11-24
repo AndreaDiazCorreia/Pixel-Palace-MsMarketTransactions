@@ -1,6 +1,7 @@
 package com.pixelpalace.msMarketTransactions.service.impl;
 
 import com.pixelpalace.msMarketTransactions.exception.PlatformNotFoundException;
+import com.pixelpalace.msMarketTransactions.model.Category;
 import com.pixelpalace.msMarketTransactions.model.Platform;
 import com.pixelpalace.msMarketTransactions.model.Product;
 import com.pixelpalace.msMarketTransactions.repository.IPlatformRepository;
@@ -22,6 +23,10 @@ public class PlatformService implements IPlatformService {
     @Override
     public Optional<Platform> findById(Long id) {
         return platformRepository.findById(id);
+    }
+
+    public List<Platform> getPlatform() {
+        return platformRepository.findAll();
     }
 
     @Override

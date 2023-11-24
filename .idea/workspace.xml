@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65010df5-e0e9-42db-8b3c-5477baa60764" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/TransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Platform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/PlatformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/controller/PlatformController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/model/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/ITransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/ITransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ITransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/ICategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/ICategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/IPlatformRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/repository/IPlatformRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/IPlatformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/IPlatformService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/PlatformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/java/com/pixelpalace/msMarketTransactions/service/impl/PlatformService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/carga_sql/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/msMarketTransactions/src/main/resources/carga_sql/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +72,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;583303ae8fcb91bd1a1ea1dbcf6f1c38&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Orne\Certified Tech Developer\Proyecto Integrador 2\Pixel-Palace-MsMarketTransactions\msMarketTransactions\src\main\resources\carga_sql" />
@@ -215,7 +219,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697830577517</updated>
-      <workItem from="1700416802296" duration="6000000" />
+      <workItem from="1700416802296" duration="9079000" />
+      <workItem from="1700527025028" duration="5562000" />
+      <workItem from="1700621452630" duration="1973000" />
     </task>
     <servers />
   </component>

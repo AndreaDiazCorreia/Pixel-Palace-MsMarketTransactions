@@ -30,6 +30,9 @@ public class CategoryService implements ICategoryService {
         return categoryRepository.findById(id);
     }
 
+    public List<Category> getCategory() {
+        return categoryRepository.findAll();
+    }
     @Override
     public Category saveProduct(Long categoryId, Product product) {
         Category category = categoryRepository.findById(categoryId).orElse(null);

@@ -28,7 +28,7 @@ server:
   port: 8082
 spring:
   application:
-    name: userManagement-service
+    name: MsMarket_Transactions-service
     web:
       cors:
         allow-credentials: true

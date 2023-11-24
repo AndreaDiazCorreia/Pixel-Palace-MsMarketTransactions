@@ -5,7 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -38,5 +40,6 @@ public class Transaction {
     private List<Platform> platform;
 
     @Column(name = "date")
-    private Date date;
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
+    private String  date;
 }
