@@ -45,7 +45,13 @@ public class Product {
 
     @Column(name = "release_date")
     private Date releaseDate;
-
-    @OneToMany(mappedBy = "product", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
-    private List<Transaction> transactions;
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY)
+    @JoinTable(
+            name = "transactions_product",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "transacction_id"))
+    private List<Transaction>  transactions;
+    public Product(Long Id) {
+        this.id = Id;
+    }
 }
