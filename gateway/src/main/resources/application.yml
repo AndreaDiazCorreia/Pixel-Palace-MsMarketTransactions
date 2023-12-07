@@ -1,0 +1,46 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: api-gateway
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak-provider:
+            issuer-uri: http://localhost:8080/realms/SecurityGateway
+
+        registration:
+          api-gateway-service:
+            provider: keycloak-provider
+            client-id: api-gateway-client
+            client-secret: 5BT3avhBCwTlpQROzFTcqNgIOqXdhI6A
+            authorization-grant-type: authorization_code
+            redirect-uri: 'http://localhost:9090/login/oauth2/code/keycloak'
+            scope:
+              - openid
+
+  eureka:
+    client:
+      service-url:
+       defaultZone: http://localhost:8761/eureka
+    instance:
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+      routes:
+      - id: Pixel-Palace-MsMangement
+        predicates:
+          - Path=/user/**
+        uri: http://localhost:8081
+      - id: Pixel-Palace-MsMarketTransactions
+        predicates:
+          - Path=/api/v1/**
+        uri: http://localhost:8082
+
+
+
